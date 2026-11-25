@@ -8,7 +8,7 @@ def test_can_afford():
     assert can_afford(1000, 500) is True
 
 
-# Test 2: Exact balance
+# Test 2: Exact balance siva
 def test_exact_balance():
     assert can_afford(1000, 1000) is True
 
